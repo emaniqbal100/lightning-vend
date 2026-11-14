@@ -1,0 +1,36 @@
+# deps
+node_modules/
+**/node_modules/
+
+# build outputs
+dist/
+**/dist/
+*.tsbuildinfo
+
+# data
+data/
+*.sqlite
+*.sqlite-journal
+*.db
+*.db-journal
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+logs/
+*.log
+
+# test / coverage
+coverage/
+.playwright-report/
+test-results/
+e2e/.auth/
+
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
